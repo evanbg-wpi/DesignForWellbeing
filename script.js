@@ -113,13 +113,10 @@ detector.addEventListener("onImageResultsSuccess", function(faces, image,
     // someCharacter.codePointAt(0) returns a character's (including emojis) unicode number as an integer
     // $('IDorCLASSselector').css(....) is jQuery code for changing an elements CSS- more on that here: https://www.w3schools.com/jquery/css_css.asp
     // #face_video_canvas is Affectiva's camera element ID. When using video filter effects this is the element you select to modify with the jQuery code.
-    console.log(face.age);
-    console.log("other emoji test: ", faces[0].emojis.dominantEmoji.codePointAt(0));
 
     if(faces[0].emojis.dominantEmoji.codePointAt(0) == 128542){ //disappointed
-        $('body').css({'background-color': '#292c85', "transition": "all .1s ease-in"}); // dark gloomy blue
-        $('body').css({'background-image': '#292c85', "transition": "all .1s ease-in"}); // dark gloomy blue
-        $("#face_video_canvas").css("filter", "grayscale(0.7) hue-rotate(270deg)"); //sad blue camera
+          $('body').css({'background-color': '#292c85', "transition": "all .1s ease-in"}); // dark gloomy blue
+          $("#face_video_canvas").css("filter", "grayscale(0.7) hue-rotate(270deg)"); //sad blue camera
     }
     else if(faces[0].emojis.dominantEmoji.codePointAt(0) == 128563){ //flushed
           $('body').css({'background-color': '#ffb6c1', "transition": "all .1s ease-in"}); // light pink
