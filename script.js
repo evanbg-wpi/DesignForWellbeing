@@ -161,6 +161,47 @@ detector.addEventListener("onImageResultsSuccess", function(faces, image,
           $("#face_video_canvas").css("filter", "grayscale(0.7) hue-rotate(270deg)"); //sad blue camera
     }
     else if(faces[0].emojis.dominantEmoji.codePointAt(0) == 128563){ //flushed
+        $("#text_suggest").text("Would you like to see a movie, a video, or look at an image?");
+        $(document).ready(function() {
+            $("#movie1").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song1").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#movie2").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song2").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#movie3").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song3").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#movie4").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song4").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
           $('body').css({'background-color': '#ffb6c1', "transition": "all .1s ease-in"}); // light pink
           $("#face_video_canvas").css("filter", "hue-rotate(50deg)"); //little more blue
     }
@@ -172,7 +213,48 @@ detector.addEventListener("onImageResultsSuccess", function(faces, image,
           $('body').css({'background-color': '#c0ffee', "transition": "all .1s ease-in"}); // pretty baby blue
           $("#face_video_canvas").css("filter", "brightness(5)"); //brightness up- most
     }
-    else if(faces[0].emojis.dominantEmoji.codePointAt(0) == 128545){ //rage
+    else if(faces[0].emojis.dominantEmoji.codePointAt(0) == 128545){ //rage $("#text_suggest").text("Would you like to see a movie, a video, or look at an image?");
+        $(document).ready(function() {
+            $("#movie1").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song1").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#movie2").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song2").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#movie3").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song3").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#movie4").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song4").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+
           $('body').css({'background-color': '#d43a3a', "transition": "all .1s ease-in"}); // darker but bright red
           $("#face_video_canvas").css("filter", "saturate(8)"); // heatmap
     }
@@ -185,7 +267,48 @@ detector.addEventListener("onImageResultsSuccess", function(faces, image,
           $("#face_video_canvas").css("filter", "blur(7px)"); //blurred camera
     }
     else if(faces[0].emojis.dominantEmoji.codePointAt(0) == 9786 || faces[0].emojis.dominantEmoji.codePointAt(0) == 128515){ //text-symbol smiley OR emoji open-mouth smiley
-          $('body').css({'background-color': '#fff44f', "transition": "all .1s ease-in"}); // yellow
+        $("#text_suggest").text("Would you like to see a movie, a video, or look at an image?");
+        $(document).ready(function() {
+            $("#movie1").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song1").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#movie2").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song2").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#movie3").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song3").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#movie4").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $(document).ready(function() {
+            $("#song4").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
+        $('body').css({'background-color': '#fff44f', "transition": "all .1s ease-in"}); // yellow
           $("#face_video_canvas").css("filter", "brightness(2)"); //brightness up- mild
     }
     else if(faces[0].emojis.dominantEmoji.codePointAt(0) == 128527){ //smirk
