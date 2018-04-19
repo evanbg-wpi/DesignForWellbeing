@@ -115,7 +115,14 @@ detector.addEventListener("onImageResultsSuccess", function(faces, image,
     // #face_video_canvas is Affectiva's camera element ID. When using video filter effects this is the element you select to modify with the jQuery code.
 
     if(faces[0].emojis.dominantEmoji.codePointAt(0) == 128542){ //disappointed
+          $("#text_suggest").text("Would you like to see a movie, a video, or look at an image?");
+        $(document).ready(function() {
+            $("#video").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
           $('body').css({'background-color': '#292c85', "transition": "all .1s ease-in"}); // dark gloomy blue
+
           $("#face_video_canvas").css("filter", "grayscale(0.7) hue-rotate(270deg)"); //sad blue camera
     }
     else if(faces[0].emojis.dominantEmoji.codePointAt(0) == 128563){ //flushed
