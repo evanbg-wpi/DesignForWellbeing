@@ -121,6 +121,11 @@ detector.addEventListener("onImageResultsSuccess", function(faces, image,
                 window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
             });
         });
+        $(document).ready(function() {
+            $("#movie").click(function(){
+                window.open('https://www.youtube.com/watch?v=XyNlqQId-nk&t=15s');
+            });
+        });
           $('body').css({'background-color': '#292c85', "transition": "all .1s ease-in"}); // dark gloomy blue
 
           $("#face_video_canvas").css("filter", "grayscale(0.7) hue-rotate(270deg)"); //sad blue camera
